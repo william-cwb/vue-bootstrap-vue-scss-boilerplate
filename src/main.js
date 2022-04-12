@@ -9,6 +9,8 @@ Vue.use(IconsPlugin);
 
 Vue.config.productionTip = false;
 
+console.log(process.env.VUE_APP_VERSION);
+
 new Vue({
   router,
   store,
